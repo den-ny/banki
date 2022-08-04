@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+  position: relative;
+}
+
+.container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.card {
+  border: 2px solid black;
+  margin: 1%;
+  padding: 3%;
+  transition: transform ease-in-out;
+  background: black;
+  color: black
+}
+
+.card:hover {
+  cursor: pointer;
+  color: white;
+}
+
+.nav {
+  text-align: center;
+  font-size: 2em;
+}
+
+p {
+  text-align: left;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  padding: 2%;
+}
+
+.button {
+  border: 3px solid black;
+  padding: 20px;
+}
